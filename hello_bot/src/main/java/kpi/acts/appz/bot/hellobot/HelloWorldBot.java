@@ -26,6 +26,6 @@ public final class HelloWorldBot extends Bot {
 
     @Override
     public void onUpdateReceived(Update update) {
-        sendTextMessage(update.getMessage(), "Suka");
+        sendTextMessage(update.getMessage(), "Vic has already done Lab11! Congratluate :) ");
     }
 }
